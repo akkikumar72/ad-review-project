@@ -38,7 +38,7 @@
         "./src/@menu/*"
       ],
       "@assets/*": [
-        "../full-version/src/assets/*"
+        "./src/assets/*"
       ],
       "@components/*": [
         "./src/components/*"
