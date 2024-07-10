@@ -19,13 +19,16 @@ import type { ButtonProps } from '@mui/material/Button'
 import classnames from 'classnames'
 
 // Type Imports
+import PricingDialog from '@components/dialogs/pricing'
+
+import OpenDialogOnElementClick from '@components/dialogs/OpenDialogOnElementClick'
+
 import type { CustomInputHorizontalData } from '@core/components/custom-inputs/types'
 import type { PricingPlanType } from '@/types/pages/pricingTypes'
 
 // Component Imports
 import CustomInputHorizontal from '@core/components/custom-inputs/Horizontal'
-import PricingDialog from '@components/dialogs/pricing'
-import OpenDialogOnElementClick from '@components/dialogs/OpenDialogOnElementClick'
+
 import DirectionalIcon from '@components/DirectionalIcon'
 import { useSettings } from '@core/hooks/useSettings'
 import CustomTextField from '@core/components/mui/TextField'

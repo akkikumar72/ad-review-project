@@ -10,7 +10,6 @@ import Chip from '@mui/material/Chip'
 import classnames from 'classnames'
 
 // Hook Imports
-import { useIntersection } from '@/hooks/useIntersection'
 
 // SVG Imports
 import Paper from '@assets/svg/front-pages/landing-page/Paper'
@@ -19,6 +18,8 @@ import User from '@assets/svg/front-pages/landing-page/User'
 import LaptopCharging from '@assets/svg/front-pages/landing-page/LaptopCharging'
 import Rocket from '@assets/svg/front-pages/landing-page/Rocket'
 import Document from '@assets/svg/front-pages/landing-page/Document'
+
+import { useIntersection } from '@/hooks/useIntersection'
 
 // Styles Imports
 import frontCommonStyles from '@views/front-pages/styles.module.css'

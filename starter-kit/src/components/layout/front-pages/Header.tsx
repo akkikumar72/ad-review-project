@@ -43,8 +43,10 @@ const Header = ({ mode }: { mode: Mode }) => {
     threshold: 0,
     disableHysteresis: true
   })
+
   console.log({isBelowLgScreen})
-  return (
+  
+return (
     <header className={classnames(frontLayoutClasses.header, styles.header)}>
       <div className={classnames(frontLayoutClasses.navbar, styles.navbar, { [styles.headerScrolled]: trigger })}>
         <div className={classnames(frontLayoutClasses.navbarContent, styles.navbarContent)}>

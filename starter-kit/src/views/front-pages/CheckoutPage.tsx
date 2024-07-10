@@ -7,7 +7,8 @@ import { useEffect } from 'react'
 import classnames from 'classnames'
 
 // Component Imports
-import Checkout from '@views/pages/wizard-examples/checkout/index'
+// import Checkout from '@views/pages/wizard-examples/checkout/index'
+
 import { useSettings } from '@core/hooks/useSettings'
 
 // Styles Imports
@@ -27,7 +28,7 @@ const CheckoutPage = () => {
 
   return (
     <section className={classnames('md:plb-[100px] plb-6', frontCommonStyles.layoutSpacing)}>
-      <Checkout />
+      {/* <Checkout /> */}
     </section>
   )
 }

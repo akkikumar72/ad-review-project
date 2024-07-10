@@ -11,11 +11,8 @@ import { useKeenSlider } from 'keen-slider/react'
 import classnames from 'classnames'
 
 // Component Imports
-import CustomIconButton from '@core/components/mui/IconButton'
-import CustomAvatar from '@core/components/mui/Avatar'
 
 // Styled Component Imports
-import AppKeenSlider from '@/libs/styles/AppKeenSlider'
 
 // SVG Imports
 import HubSpot from '@assets/svg/front-pages/landing-page/HubSpot'
@@ -24,6 +21,10 @@ import Dribbble from '@assets/svg/front-pages/landing-page/Dribbble'
 import Airbnb from '@assets/svg/front-pages/landing-page/Airbnb'
 import Coinbase from '@assets/svg/front-pages/landing-page/Coinbase'
 import Netflix from '@assets/svg/front-pages/landing-page/Netflix'
+
+import AppKeenSlider from '@/libs/styles/AppKeenSlider'
+import CustomAvatar from '@core/components/mui/Avatar'
+import CustomIconButton from '@core/components/mui/IconButton'
 
 // Styles Imports
 import frontCommonStyles from '@views/front-pages/styles.module.css'

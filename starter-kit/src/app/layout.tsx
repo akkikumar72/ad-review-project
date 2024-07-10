@@ -3,6 +3,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css'
 
 // Type Imports
 import type { ChildrenType } from '@core/types'
+
 // Context Imports
 import { IntersectionProvider } from '@/contexts/intersectionContext'
 

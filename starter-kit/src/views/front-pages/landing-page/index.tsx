@@ -34,7 +34,7 @@ const LandingPageWrapper = ({ mode }: { mode: SystemMode }) => {
     <div className='bg-backgroundPaper'>
       <HeroSection mode={mode} />
       <UsefulFeature />
-      {/* <CustomerReviews /> */}
+      <CustomerReviews />
       <OurTeam />
       <Pricing />
       <ProductStat />
