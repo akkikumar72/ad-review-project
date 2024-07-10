@@ -28,7 +28,7 @@ const LayoutWrapper = (props: LayoutWrapperProps) => {
   // Return the layout based on the layout context
   return (
     <div className='flex flex-col flex-auto' data-skin={settings.skin}>
-      {settings.layout === 'horizontal' ? horizontalLayout : verticalLayout}
+      {settings.layout !== 'horizontal' ? horizontalLayout : verticalLayout}
     </div>
   )
 }

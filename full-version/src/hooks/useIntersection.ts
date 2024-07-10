@@ -7,9 +7,9 @@ import { IntersectionContext } from '@/contexts/intersectionContext'
 export const useIntersection = () => {
   // Hooks
   const context = useContext(IntersectionContext)
-
+  console.log('Contxt', context)
   if (!context) {
-    throw new Error('useIntersection must be used within a IntersectionProvider')
+    console.warn('useIntersection must be used within a IntersectionProvider')
   }
 
   return context

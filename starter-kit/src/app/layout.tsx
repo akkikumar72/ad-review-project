@@ -3,17 +3,20 @@ import 'react-perfect-scrollbar/dist/css/styles.css'
 
 // Type Imports
 import type { ChildrenType } from '@core/types'
+// Context Imports
+import { IntersectionProvider } from '@/contexts/intersectionContext'
+
 
 // Style Imports
 import '@/app/globals.css'
 
 // Generated Icon CSS Imports
-import '@assets/iconify-icons/generated-icons.css'
+// import '@assets/iconify-icons/generated-icons.css'
 
 export const metadata = {
-  title: 'Vuexy - MUI Next.js Admin Dashboard Template',
+  title: 'Ad Revenue project ',
   description:
-    'Vuexy - MUI Next.js Admin Dashboard Template - is the most developer friendly & highly customizable Admin Dashboard Template based on MUI v5.'
+    'Revenue project'
 }
 
 const RootLayout = ({ children }: ChildrenType) => {
@@ -22,7 +25,11 @@ const RootLayout = ({ children }: ChildrenType) => {
 
   return (
     <html id='__next' lang='en' dir={direction}>
-      <body className='flex is-full min-bs-full flex-auto flex-col'>{children}</body>
+      <body className='flex is-full min-bs-full flex-auto flex-col'>
+        <IntersectionProvider>
+        {children}
+          </IntersectionProvider>
+        </body>
     </html>
   )
 }
